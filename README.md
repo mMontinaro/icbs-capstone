@@ -70,23 +70,5 @@ Flexibility allows switching acquisition functions, adjusting BO hyperparameters
 ***
 _This README reflects the current status of my BBO project and will be updated as strategies evolve in future weeks._
 ***
-NOTE: Refactoring needed
-icbs-capstone/
-├─ data/
-│  ├─ function1/
-│  ├─ function2/
-│  ├─ function.../
-│  ├─ week1/
-│  ├─ week.../
-│  └─ weekn/
-├─ notebooks/
-│  ├─ exploration.ipynb
-│  └─ experiments.ipynb
-├─ src/
-│  ├─ __init__.py
-│  ├─ data_loader.py
-│  ├─ acquisition.py
-│  ├─ gp_model.py
-│  └─ optimizer.py
-├─ README.md
-└─ .gitignore
+
+testing commitizen invalid
