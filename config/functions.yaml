@@ -21,3 +21,5 @@ f7:
 
 f8:
     columns: ['learning_rate', 'batch_size', 'num_layers', 'dropout_rate', 'regularisation_strength', 'activation_function', 'optimiser_type', 'initial_weight_range']
+
+data_dir: "data"
