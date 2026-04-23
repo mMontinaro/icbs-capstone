@@ -71,4 +71,4 @@ Flexibility allows switching acquisition functions, adjusting BO hyperparameters
 _This README reflects the current status of my BBO project and will be updated as strategies evolve in future weeks._
 ***
 
-testing commitizen invalid
+commitizen implemented, testing
