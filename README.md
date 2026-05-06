@@ -77,5 +77,5 @@ commitizen implemented, test - successful, cz commit to correctly follow standar
 https://github.com/mMontinaro/icbs-capstone/blob/3aa31af00262c047aef23bbb02e2fac3436d4c11/docs/DATASHEET.md
 
 # Model Card
-
+https://github.com/mMontinaro/icbs-capstone/blob/f3780ca908189518cfba4c78f76fd61d3f92372f/docs/MODEL_CARD.md
 
