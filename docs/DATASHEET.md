@@ -81,7 +81,7 @@ The process followed a loop:
 1. Fit surrogate model on existing data  
 2. Generate candidate points  
 3. Select next query using acquisition function  
-4. Evaluate function and append result  
+4. Evaluate function, wait for output to be processed and relayed, and append result  
 
 ### Sampling Approach
 - Early rounds: broader exploration  
@@ -90,8 +90,7 @@ The process followed a loop:
 This results in a **biased sampling distribution**, favouring exploitation over time.
 
 ### Time Frame
-- Data collected over ~11 weekly iterations  
-[<confirm exact duration if needed>]
+- Data collected over 12 weekly iterations
 
 No human subjects were involved, so:
 - No consent or ethical review was required  
@@ -103,17 +102,12 @@ No human subjects were involved, so:
 
 ### Preprocessing
 
-The dataset is assumed to be either:
+The dataset is:
 - Used in raw form  
-- Or lightly transformed (e.g., normalization of inputs)
-
-[<specify whether inputs were normalized, scaled, or transformed>]
 
 No tokenisation or feature engineering beyond numerical representation is involved.
 
-It is unclear whether:
-- Raw data is preserved alongside processed data  
-[<confirm if both versions are stored>]
+Both raw data and processed data are preserved alongside each other.
 
 ---
 
@@ -142,19 +136,13 @@ It is unclear whether:
 
 ### Distribution
 
-The dataset is assumed to be stored:
-- In a local or version-controlled environment (e.g., GitHub repository)  
-[<specify exact location or repository link>]
-
-Availability:
-- Likely private or shared within course context  
-[<confirm public/private access>]
+The dataset is stored on a public GitHub repository:
+https://github.com/mMontinaro/icbs-capstone.git
 
 License:
-- No formal license specified  
-[<add license if applicable>]
+- No formal license
 
-No fees or access restrictions are known.
+No access restrictions are known.
 
 ---
 
@@ -167,10 +155,7 @@ Maintenance includes:
 - Iterative refinement of dataset  
 
 Versioning:
-- Likely tracked through:
-  - Git commits  
-  - or manual versioning  
-[<confirm version control method>]
+  - Git commits
 
 Future updates:
 - Dataset may be frozen after project completion  
