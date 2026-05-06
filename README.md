@@ -73,7 +73,9 @@ _This README reflects the current status of my BBO project and will be updated a
 
 commitizen implemented, test - successful, cz commit to correctly follow standards (prompt style)
 
-# TODO:
-- [x] Implement commitizen
-- [x] Test commitizen
-- [ ] Implement graphs in frameworks
+# Datasheet
+https://github.com/mMontinaro/icbs-capstone/blob/3aa31af00262c047aef23bbb02e2fac3436d4c11/docs/DATASHEET.md
+
+# Model Card
+
+
