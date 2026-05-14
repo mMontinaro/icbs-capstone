@@ -1,0 +1,33 @@
+
+change_types = [
+    {value = "subm", description = "Submission"},
+    {value = "docs", description = "Documentation"},
+    {value = "feat", description = "New Feature"},
+    {value = "fix", description = "Bug Fix"}
+]
+scopes = ["", "src", "data", "nb"]
+
+[tool.commitizen]
+name = "cz_customize"
+use_shortcuts = true
+
+[tool.commitizen.customize]
+message_template = "{{prefix}}: {{message}}"
+schema = "<type>: <body>"
+schema_pattern = "(subm|docs|feat|fix):(\\s.*)"
+
+[[tool.commitizen.customize.questions]]
+type = "list"
+name = "prefix"
+message = "Select the type of change you are committing"
+choices = [
+    {value = "subm", name = "sumb: Submission", key = "s" },
+    {value = "docs", name = "docs: Documentation", key = "d" },
+    {value = "feat", name = "feat: New Feature", key = "f" },
+    {value = "fix", name = "fox: Bug Fix", key = "b" }
+]
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "message"
+message = "Commit body: "

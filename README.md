@@ -69,3 +69,13 @@ Flexibility allows switching acquisition functions, adjusting BO hyperparameters
 
 ***
 _This README reflects the current status of my BBO project and will be updated as strategies evolve in future weeks._
+***
+
+commitizen implemented, test - successful, cz commit to correctly follow standards (prompt style)
+
+# Datasheet
+https://github.com/mMontinaro/icbs-capstone/blob/3aa31af00262c047aef23bbb02e2fac3436d4c11/docs/DATASHEET.md
+
+# Model Card
+https://github.com/mMontinaro/icbs-capstone/blob/f3780ca908189518cfba4c78f76fd61d3f92372f/docs/MODEL_CARD.md
+
